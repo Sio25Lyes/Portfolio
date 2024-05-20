@@ -71,6 +71,26 @@
             margin-bottom: 10px;
             color: #555;
         }
+        @media only screen and (max-width: 20px) {
+            .main-content, .right-align {
+                width: 100%; /* Mettre la largeur à 100% pour s'adapter à l'écran */
+                margin-right: 0; /* Supprimer la marge à droite pour éviter le chevauchement */
+                padding: 10px; /* Ajouter un peu de marge intérieure */
+            }
+            .journal-container {
+                padding: 20px; /* Ajouter un peu de marge intérieure */
+            }
+            .right-align {
+                position: relative; /* Changer la position en relative pour garder les éléments dans le flux */
+                width: 100%; /* Mettre la largeur à 100% */
+                margin-top: 20px; /* Ajouter une marge en haut pour espacer les éléments */
+                text-align: left; /* Aligner le texte à gauche pour une meilleure lisibilité */
+            }
+            .button {
+                display: block; /* Afficher les boutons en tant que bloc pour qu'ils prennent toute la largeur */
+                margin-bottom: 10px; /* Ajouter un peu d'espace entre les boutons */
+            }
+        }
     </style>
 </head>
 <body>
@@ -86,8 +106,7 @@
     <div class="portfolio-content">
         <h2>À propos de moi</h2>
         <p>Actuellement étudiant en première année de BTS Services Informatiques aux Organisations (SIO), je suis diplômé d'un Master Métiers de l'Enseignement, de l'Éducation et de la formation, mention Histoire-Géographie.
-             Passionné de toujours par l'informatique et les nouvelles technologies, 
-             j'ai soif d'apprentissage et de défis.</p>
+             Passionné par l'informatique et les nouvelles technologies, j'ai soif d'apprentissage et de défis.</p>
         
         <h2>Certifications et auto-formation</h2>
         <h3>CCNA1 : en cours</h3>
@@ -97,7 +116,7 @@
         
         <h2>Sujets de veille technologique</h2>
         <h3>Asahi Linux (en cours)</h3>
-        <p>Ce système d'exploitation Linux se veut particulièrement adapté aux ordinateurs Mac équipés des processeurs M1 et M2. Un des principaux intérêts de ce dernier réside en sa capacité à exploiter pleinement les performances desdits processeurs afin de transporter ces ordinateurs en de puissants serveurs, serveurs ayant notamment comme avantage une consommation énergétique contenue.</p>
+        <p>Ce système d'exploitation Linux se veut particulièrement adapté aux ordinateurs Mac équipés des processeurs M1 et M2. Un des principaux intérêts de ce dernier réside en sa capacité à exploiter pleinement les performances desdits processeurs afin de transformer ces ordinateurs en de puissants serveurs, serveurs ayant notamment comme avantage une consommation énergétique contenue.</p>
         <h3></h3>
         <p></p>
 

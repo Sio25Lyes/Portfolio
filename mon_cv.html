@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journal de Bord</title>
+    <title> CV</title>
     <link rel="stylesheet" href="style.css">
     <style>
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -84,6 +85,27 @@
         .main-content {
             margin-right: 320px;
         }
+
+        @media only screen and (max-width: 20px) {
+            .main-content, .right-align {
+                width: 100%; /* Mettre la largeur à 100% pour s'adapter à l'écran */
+                margin-right: 0; /* Supprimer la marge à droite pour éviter le chevauchement */
+                padding: 10px; /* Ajouter un peu de marge intérieure */
+            }
+            .journal-container {
+                padding: 20px; /* Ajouter un peu de marge intérieure */
+            }
+            .right-align {
+                position: relative; /* Changer la position en relative pour garder les éléments dans le flux */
+                width: 100%; /* Mettre la largeur à 100% */
+                margin-top: 20px; /* Ajouter une marge en haut pour espacer les éléments */
+                text-align: left; /* Aligner le texte à gauche pour une meilleure lisibilité */
+            }
+            .button {
+                display: block; /* Afficher les boutons en tant que bloc pour qu'ils prennent toute la largeur */
+                margin-bottom: 10px; /* Ajouter un peu d'espace entre les boutons */
+            }
+        }
     </style>
     <script src="script12az.js" defer></script>
 </head>
@@ -98,8 +120,46 @@
         </div>
     </header>
     <div class="journal-container">
+        <h1 id="lyes-djebaili">LYES DJEBAILI</h1>
+        <div class="right-align">
+            <h4 id="-a-propos-de-moi-" style="text-align: center;"><strong><em>À propos de moi</em></strong></h4>
+            <div><img src="mail2.png" alt=""> &nbsp;djebaili.lyes3@proton.me</div>
+            <div><img src="maison2.PNG" alt=""> &nbsp;Le Chambon-Feugerolles</div>
+            <div><img src="téléphone2.PNG" alt=""> &nbsp;07-62-24-17-03</div>
+            <div><img src="date2.png" alt="">&nbsp; 6 Nov. 1998</div>
+            <div><img src="nationalité2.png" alt=""> &nbsp; Français</div>
+        
+            <h4 id="-objectif-" style="text-align: center;"><strong><em>OBJECTIF</em></strong></h4>
+            <p style="text-align: justify;">Dynamique et passionné par l'informatique, j'aspire à l'acquisition d'une solide maitrise technique, 
+                ainsi qu'une expérience pratique en support informatique et en réseau. Autonome et motivé, je suis prêt à apprendre, 
+                travailler et m'investir pleinement dans les tâches que vous me confierez </p>
+
+                <p id="-compétences-" style="text-align: center;"><strong><em>COMPÉTENCES</em></strong></p>
+            
+            
+                <p id="-langues-" style="text-align: center;">Langues</p>
+                <p style="text-align: justify;  position: relative; top: -10px;">Français : Natif <br>
+                Anglais : Niveau B2<br>
+                Arabe : Niveau B1<br>
+                Espagnol : Niveau B1<br>
+                Permis de conduire : Titulaire du permis B depuis 2021 (actuellement véhiculé)</p>
+    
+                <p id="-savoirs-faire-" style="text-align: center;  position: relative; top: -10px;">Savoirs-faire</p>
+    
+                <ul style="text-align: left; position: relative; top: -20px;">
+                    <li>Réseau</li>
+                    <li>TCP/IP</li>
+                    <li>Windows</li>
+                    <li>Linux (bases)</li>
+                    <li>Remote Desktop Services</li>
+                    <li>Rigueur</li>
+                    <li>Sens de l'organisation</li>
+                    <li>Capacité d'adaptation</li>
+                    <li>Sens de la communication</li>
+                </ul>
+
+        </div>
         <div class="main-content">
-            <h1 id="lyes-djebaili">LYES DJEBAILI</h1>
             <h2 id="-exp-riences-"><strong><em>EXPÉRIENCES</em></strong></h2>
             <h5 id="mar-2022-professeur-suppl-ant-">Mar. 2022 : <strong>PROFESSEUR SUPPLÉANT</strong></h5>
             <p>Collèges puits de la Loire et Jules Vallès  <em>| Saint-Etienne </em><br>
@@ -125,40 +185,7 @@
             <p><em>| Saint-Etienne</em></p>
         </div>
         <div class="right-align">
-            <h4 id="-a-propos-de-moi-" style="text-align: center;"><strong><em>À propos de moi</em></strong></h4>
-            <div><img src="mail2.png" alt=""> &nbsp;djebaili.lyes3@proton.me</div>
-            <div><img src="maison2.png" alt=""> &nbsp;Le Chambon-Feugerolles</div>
-            <div><img src="téléphone2.png" alt=""> &nbsp;07-62-24-17-03</div>
-            <div><img src="date2.png" alt="">&nbsp; 6 Nov. 1998</div>
-            <div><img src="nationalité2.png" alt=""> &nbsp; Français</div>
-        
-            <h4 id="-objectif-" style="text-align: center;"><strong><em>OBJECTIF</em></strong></h4>
-            <p style="text-align: justify;">Dynamique et passionné par l'informatique, j'aspire à l'acquisition d'une solide maitrise technique, 
-                ainsi qu'une expérience pratique en support informatique et en réseau. Autonome et motivé, je suis prêt à apprendre, 
-                travailler et m'investir pleinement dans les tâches que vous me confierez </p>
-            <p id="-compétences-" style="text-align: center;"><strong><em>COMPÉTENCES</em></strong></p>
-            
-            
-            <p id="-langues-" style="text-align: center;">Langues</p>
-            <p style="text-align: justify;  position: relative; top: -10px;">Français : Natif <br>
-            Anglais : Niveau B2<br>
-            Arabe : Niveau B1<br>
-            Espagnol : Niveau B1<br>
-            Permis de conduire : Titulaire du permis B depuis 2021 (actuellement véhiculé)</p>
 
-            <p id="-savoirs-faire-" style="text-align: center;  position: relative; top: -10px;">Savoirs-faire</p>
-
-            <ul style="text-align: left; position: relative; top: -20px;">
-                <li>Réseau</li>
-                <li>TCP/IP</li>
-                <li>Windows</li>
-                <li>Linux (bases)</li>
-                <li>Remote Desktop Services</li>
-                <li>Rigueur</li>
-                <li>Sens de l'organisation</li>
-                <li>Capacité d'adaptation</li>
-                <li>Sens de la communication</li>
-            </ul>
         </div>
     </div>
     
