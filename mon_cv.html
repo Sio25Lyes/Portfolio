@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal de Bord</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #333;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+            
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .journal-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            color: #333;
+        }
+        .journal-container h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .journal-entry {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .journal-entry p {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .right-align {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 300px; 
+            color: #333;
+        }
+        .right-align h3, .right-align h2, .right-align p, .right-align ul {
+            text-align: right;
+        }
+        .main-content {
+            margin-right: 320px;
+        }
+    </style>
+    <script src="script12az.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 style="color: white">Étudiant BTS SIO - première année -</h1>
+        <div class="button-container">
+            <a href="https://djebaili-lyes.tiiny.site/" class="button" target="self" onclick="loadPage('accueil.html');">Accueil</a>
+            <a href="journal.html" class="button" target="self" onclick="loadPage('journal.html');">Journal de bord</a>
+            <a href="veille.html" class="button" target="self" onclick="loadPage('veille.html');">Veille technologique</a>
+            <a href="mon_cv.html" class="button" target="blank" onclick="loadPage('mon_cv.html');">Mon CV</a>
+        </div>
+    </header>
+    <div class="journal-container">
+        <div class="main-content">
+            <h1 id="lyes-djebaili">LYES DJEBAILI</h1>
+            <h2 id="-exp-riences-"><strong><em>EXPÉRIENCES</em></strong></h2>
+            <h5 id="mar-2022-professeur-suppl-ant-">Mar. 2022 : <strong>PROFESSEUR SUPPLÉANT</strong></h5>
+            <p>Collèges puits de la Loire et Jules Vallès  <em>| Saint-Etienne </em><br>
+            Enseignant contractuel en histoire géographie</p>
+            <h5 id="jan-2022-f-v-2022-assistant-d-ducation-">Jan. 2022/Fév. 2022 : <strong>ASSISTANT DÉDUCATION</strong></h5>
+            <p>Lycée Simone Weil <em> | Saint-Priest-en-Jarez </em></p>
+            <h5 id="oct-2021-d-c-2021-assistant-d-ducation-">Oct. 2021/Déc. 2021 : <strong>ASSISTANT D&#39;ÉDUCATION</strong></h5>
+            <p>Lycée Claude Fauriel <em>| Saint-Etienne</p> </em>
+            <h5 id="nov-2020-f-v-2021-professeur-stagiaire-">Nov. 2020/Fév. 2021 :  <strong>PROFESSEUR STAGIAIRE</strong></h5>
+            <p>Lycée Albert Camus <em>| Firminy</p></em>
+            <h5 id="nov-2019-f-v-2020-professeur-stagiaire-">Nov. 2019/Fév. 2020 : <strong>PROFESSEUR STAGIAIRE</strong></h5>
+            <p>Collège Massenet- Fourneyron <em> Le Chambon-Feugerolles</p></em>
+            <h2 id="-ducation-"><strong><em>ÉDUCATION</em></strong></h2>
+            <h5 id="sep-2023-pr-sent-bts-services-informatiques-aux-organisations-">Sep. 2023/Présent : <strong>BTS SERVICES INFORMATIQUES AUX ORGANISATIONS</strong></h5>
+            <p>Lycée Georges Brassens <em>| Rive-de-Gier</p></em>
+            <h5 id="sep-2019-juin-2021-master-meef-2nd-degr-histoire-g-ographie-">Sep. 2019/Jui. 2021 : <strong>MASTER MEEF 2ND DEGRÉ, HISTOIRE GÉOGRAPHIE</strong></h5>
+            <p>Université Jean Monnet <em>| Saint-Etienne</em> <br>
+            <em>Mention Bien</em></p>
+            <h5 id="sep-2016-juin-2019-licence-d-histoire-">Sep. 2016/Jui. 2019 : <strong>LICENCE D&#39;HISTOIRE</strong></h5>
+            <p>Université Jean Monnet <em>| Saint-Etienne</p></em>
+            <p><em>Mention Assez Bien</em></p>
+            <h5 id="juin-2018-cambridge-certificate-b2-">Jui. 2018 <strong>CAMBRIDGE CERTIFICATE (B2)</strong></h5>
+            <p><em>| Saint-Etienne</em></p>
+        </div>
+        <div class="right-align">
+            <h4 id="-a-propos-de-moi-" style="text-align: center;"><strong><em>À propos de moi</em></strong></h4>
+            <div><img src="mail2.png" alt=""> &nbsp;djebaili.lyes3@proton.me</div>
+            <div><img src="maison2.PNG" alt=""> &nbsp;Le Chambon-Feugerolles</div>
+            <div><img src="téléphone2.PNG" alt=""> &nbsp;07-62-24-17-03</div>
+            <div><img src="date2.png" alt="">&nbsp; 6 Nov. 1998</div>
+            <div><img src="nationalité2.png" alt=""> &nbsp; Français</div>
+        
+            <h4 id="-objectif-" style="text-align: center;"><strong><em>OBJECTIF</em></strong></h4>
+            <p style="text-align: justify;">Dynamique et passionné par l'informatique, j'aspire à l'acquisition d'une solide maitrise technique, 
+                ainsi qu'une expérience pratique en support informatique et en réseau. Autonome et motivé, je suis prêt à apprendre, 
+                travailler et m'investir pleinement dans les tâches que vous me confierez </p>
+            <p id="-compétences-" style="text-align: center;"><strong><em>COMPÉTENCES</em></strong></p>
+            
+            
+            <p id="-langues-" style="text-align: center;">Langues</p>
+            <p style="text-align: justify;  position: relative; top: -10px;">Français : Natif <br>
+            Anglais : Niveau B2<br>
+            Arabe : Niveau B1<br>
+            Espagnol : Niveau B1<br>
+            Permis de conduire : Titulaire du permis B depuis 2021 (actuellement véhiculé)</p>
+
+            <p id="-savoirs-faire-" style="text-align: center;  position: relative; top: -10px;">Savoirs-faire</p>
+
+            <ul style="text-align: left; position: relative; top: -20px;">
+                <li>Réseau</li>
+                <li>TCP/IP</li>
+                <li>Windows</li>
+                <li>Linux (bases)</li>
+                <li>Remote Desktop Services</li>
+                <li>Rigueur</li>
+                <li>Sens de l'organisation</li>
+                <li>Capacité d'adaptation</li>
+                <li>Sens de la communication</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

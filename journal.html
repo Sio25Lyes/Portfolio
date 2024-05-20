@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal de Bord</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .journal-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .journal-container h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .journal-entry {
+            margin-bottom: 20px;
+        }
+        .journal-entry p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Journal de Bord</h1>
+        <div class="button-container">
+            <a href="https://djebaili-lyes.tiiny.site/" class="button" target="self" onclick="loadPage('accueil.html');">Accueil</a>
+            <a href="journal.html" class="button" target="self" onclick="loadPage('journal.html');">Journal de bord</a>
+            <a href="veille.html" class="button" target="self" onclick="loadPage('veille.html');">Veille technologique</a>
+            <a href="mon_cv.html" class="button" target="blank" onclick="loadPage('mon_cv.html');">Mon CV</a>
+        </div>
+    </header>
+    <div class="journal-container">
+        <h2>Journal de Bord</h2>
+        <div class="journal-entry">
+            <p> <B> [xx/05/2024] </B> :
+                <br>Activité : 
+                <br>Remarque :
+            </p>
+        </div>
+        <div class="journal-entry">
+            <p><B> [xx/05/2024]</B> :
+                <br>Activité :
+                <br>Remarque :
+            </p>
+        </div>
+    </div>
+</body>
+</html>
